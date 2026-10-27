@@ -46,6 +46,13 @@ Full details are in [docs/METHODOLOGY.md](docs/METHODOLOGY.md).
 
 ![Forecast board](assets/forecast-board.png)
 
+## Live data
+
+Two update loops keep the board current:
+
+- **Daily, automatic (market tiles).** A GitHub Action ([`update-live-data.yml`](.github/workflows/update-live-data.yml)) runs every weekday after the US close. It pulls closes for the Nifty, Sensex, S&P 500, Nasdaq, Dow, Brent, WTI and the US 10-year yield with [`scripts/fetch_live.py`](scripts/fetch_live.py), writes [`data/live.json`](data/live.json) and commits it. The page reads that file on load and shows a green "LIVE MARKETS" stamp. You can also trigger it from the repo's Actions tab.
+- **Weekly, researched (everything else).** Conflicts, sanctions, trade, theory scores and forecasts need judgment, so a full edition is researched and re-scored every Monday.
+
 ## Run it
 
 No build step and no dependencies to install. Open `index.html` in a browser, or serve the folder:
@@ -61,6 +68,9 @@ The only external request is Mermaid (from jsDelivr) to draw the three model dia
 
 ```
 index.html            the whole dashboard: markup, styles, datasets and rendering logic
+data/live.json        latest market closes, refreshed daily by GitHub Actions
+scripts/fetch_live.py the daily market-data fetcher
+.github/workflows/    the daily update job
 docs/METHODOLOGY.md   scoring model, forecasting method, adopted frameworks
 CHANGELOG.md          edition history and corrections
 assets/               screenshots used in this README and as the social preview

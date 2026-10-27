@@ -1347,6 +1347,37 @@ flowchart LR
   })();
 </script>
 
+<script>
+  // Live market layer: data/live.json is refreshed every weekday by a GitHub Action
+  // (scripts/fetch_live.py). If it loads, the market tiles show the latest closes;
+  // the edition's analysis, scores and forecasts stay as of the snapshot date.
+  (function () {
+    var MAP = { "Nifty 50": "nifty", "Sensex": "sensex", "S&P 500": "spx", "Nasdaq": "nasdaq", "Dow Jones": "dow",
+                "Brent crude": "brent", "WTI crude": "wti", "US 10-yr yield": "us10y" };
+    function pct(v, tag) { var c = v > 0.05 ? "up" : (v < -0.05 ? "down" : "flat");
+      return '<span class="delta ' + c + '">' + (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(2) + "% " + tag + "</span>"; }
+    function fmt(k, v) {
+      if (k === "brent" || k === "wti") return "$" + v.toFixed(2);
+      if (k === "us10y") return v.toFixed(2) + "%";
+      return v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+    fetch("data/live.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
+      var n = 0;
+      document.querySelectorAll(".tile").forEach(function (t) {
+        var lab = t.querySelector(".label"); if (!lab) return;
+        var k = MAP[lab.textContent.trim()], q = k && d.quotes[k]; if (!q) return;
+        t.querySelector(".value").textContent = fmt(k, q.last);
+        t.querySelector(".sub").innerHTML = pct(q.chg_pct, "day") + " " + pct(q.wk_pct, "wk") + ' <span style="color:var(--muted)">close ' + q.date + "</span>";
+        n++;
+      });
+      if (!n) return;
+      var chip = document.createElement("span");
+      chip.className = "age"; chip.style.color = "var(--good)";
+      chip.textContent = "LIVE MARKETS · auto-updated " + d.updated_utc.replace("T", " ").replace("Z", " UTC");
+      document.querySelector(".stamp").appendChild(chip);
+    }).catch(function () { /* opened as a local file or no live data yet: keep snapshot values */ });
+  })();
+</script>
 <script type="module">
   import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
   const dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
