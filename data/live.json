@@ -1,13 +1,77 @@
 {
-  "updated_utc": "2026-10-09T21:30Z",
+  "updated_utc": "2026-10-27T17:46Z",
   "quotes": {
-    "nifty":  {"label": "Nifty 50", "symbol": "^NSEI", "last": 22520.45, "chg_pct": 1.30, "wk_pct": 0.4, "date": "2026-10-09"},
-    "sensex": {"label": "Sensex", "symbol": "^BSESN", "last": 72472.33, "chg_pct": 1.23, "wk_pct": 0.8, "date": "2026-10-09"},
-    "spx":    {"label": "S&P 500", "symbol": "^GSPC", "last": 7811.54, "chg_pct": 0.6, "wk_pct": 1.2, "date": "2026-10-09"},
-    "nasdaq": {"label": "Nasdaq", "symbol": "^IXIC", "last": 27366.17, "chg_pct": 0.6, "wk_pct": 0.6, "date": "2026-10-09"},
-    "dow":    {"label": "Dow Jones", "symbol": "^DJI", "last": 51654.95, "chg_pct": 0.8, "wk_pct": 0.9, "date": "2026-10-09"},
-    "brent":  {"label": "Brent crude", "symbol": "BZ=F", "last": 102.91, "chg_pct": -1.3, "wk_pct": 1.8, "date": "2026-10-09"},
-    "wti":    {"label": "WTI crude", "symbol": "CL=F", "last": 90.40, "chg_pct": -1.2, "wk_pct": 0.0, "date": "2026-10-09"},
-    "us10y":  {"label": "US 10-yr yield", "symbol": "^TNX", "last": 5.24, "chg_pct": 0.0, "wk_pct": -1.0, "date": "2026-10-09"}
+    "nifty": {
+      "label": "Nifty 50",
+      "symbol": "^NSEI",
+      "last": 22749.75,
+      "chg_pct": -0.02,
+      "wk_pct": -0.61,
+      "date": "2026-10-27"
+    },
+    "sensex": {
+      "label": "Sensex",
+      "symbol": "^BSESN",
+      "last": 73598.67,
+      "chg_pct": -0.01,
+      "wk_pct": -0.34,
+      "date": "2026-10-27"
+    },
+    "spx": {
+      "label": "S&P 500",
+      "symbol": "^GSPC",
+      "last": 7723.89,
+      "chg_pct": 0.61,
+      "wk_pct": 0.15,
+      "date": "2026-10-27"
+    },
+    "nasdaq": {
+      "label": "Nasdaq",
+      "symbol": "^IXIC",
+      "last": 26481.41,
+      "chg_pct": 1.19,
+      "wk_pct": 0.21,
+      "date": "2026-10-27"
+    },
+    "dow": {
+      "label": "Dow Jones",
+      "symbol": "^DJI",
+      "last": 52392.46,
+      "chg_pct": 0.06,
+      "wk_pct": -0.2,
+      "date": "2026-10-27"
+    },
+    "brent": {
+      "label": "Brent crude",
+      "symbol": "BZ=F",
+      "last": 109.1,
+      "chg_pct": -5.79,
+      "wk_pct": 0.28,
+      "date": "2026-10-27"
+    },
+    "wti": {
+      "label": "WTI crude",
+      "symbol": "CL=F",
+      "last": 99.56,
+      "chg_pct": -2.16,
+      "wk_pct": -2.19,
+      "date": "2026-10-27"
+    },
+    "us10y": {
+      "label": "US 10-yr yield",
+      "symbol": "^TNX",
+      "last": 4.99,
+      "chg_pct": 0.08,
+      "wk_pct": -2.48,
+      "date": "2026-10-27"
+    },
+    "sox": {
+      "label": "SOX semis",
+      "symbol": "^SOX",
+      "last": 11463.56,
+      "chg_pct": 3.43,
+      "wk_pct": 1.59,
+      "date": "2026-10-27"
+    }
   }
 }
