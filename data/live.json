@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-10T03:43Z",
+  "updated_utc": "2026-11-11T01:22Z",
   "quotes": {
     "nifty": {
       "label": "Nifty 50",
@@ -20,58 +20,58 @@
     "spx": {
       "label": "S&P 500",
       "symbol": "^GSPC",
-      "last": 7549.94,
-      "chg_pct": 2.35,
-      "wk_pct": 0.11,
-      "date": "2026-11-09"
+      "last": 7520.93,
+      "chg_pct": -0.38,
+      "wk_pct": -0.63,
+      "date": "2026-11-10"
     },
     "nasdaq": {
       "label": "Nasdaq",
       "symbol": "^IXIC",
-      "last": 25253.14,
-      "chg_pct": 2.74,
-      "wk_pct": 0.35,
-      "date": "2026-11-09"
+      "last": 25065.88,
+      "chg_pct": -0.74,
+      "wk_pct": -1.21,
+      "date": "2026-11-10"
     },
     "dow": {
       "label": "Dow Jones",
       "symbol": "^DJI",
-      "last": 52389.75,
-      "chg_pct": 2.15,
-      "wk_pct": 0.78,
-      "date": "2026-11-09"
+      "last": 52231.89,
+      "chg_pct": -0.3,
+      "wk_pct": 0.86,
+      "date": "2026-11-10"
     },
     "brent": {
       "label": "Brent crude",
       "symbol": "BZ=F",
-      "last": 91.72,
-      "chg_pct": -6.71,
-      "wk_pct": -12.46,
-      "date": "2026-11-09"
+      "last": 92.17,
+      "chg_pct": -0.43,
+      "wk_pct": -11.03,
+      "date": "2026-11-10"
     },
     "wti": {
       "label": "WTI crude",
       "symbol": "CL=F",
-      "last": 85.88,
-      "chg_pct": -5.45,
-      "wk_pct": -10.97,
-      "date": "2026-11-09"
+      "last": 86.52,
+      "chg_pct": -0.38,
+      "wk_pct": -9.96,
+      "date": "2026-11-10"
     },
     "us10y": {
       "label": "US 10-yr yield",
       "symbol": "^TNX",
-      "last": 4.86,
-      "chg_pct": 0.1,
-      "wk_pct": -0.61,
-      "date": "2026-11-09"
+      "last": 4.98,
+      "chg_pct": 2.45,
+      "wk_pct": 0.63,
+      "date": "2026-11-10"
     },
     "sox": {
       "label": "SOX semis",
       "symbol": "^SOX",
-      "last": 10033.93,
-      "chg_pct": 6.85,
-      "wk_pct": -2.85,
-      "date": "2026-11-09"
+      "last": 9998.33,
+      "chg_pct": -0.35,
+      "wk_pct": -5.68,
+      "date": "2026-11-10"
     }
   }
 }
