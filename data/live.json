@@ -1,77 +1,77 @@
 {
-  "updated_utc": "2026-11-24T05:27Z",
+  "updated_utc": "2026-11-25T04:28Z",
   "quotes": {
     "nifty": {
       "label": "Nifty 50",
       "symbol": "^NSEI",
-      "last": 25349.65,
-      "chg_pct": -1.75,
-      "wk_pct": 0.23,
-      "date": "2026-11-23"
+      "last": 25768.2,
+      "chg_pct": 1.65,
+      "wk_pct": 1.5,
+      "date": "2026-11-25"
     },
     "sensex": {
       "label": "Sensex",
       "symbol": "^BSESN",
-      "last": 82435.99,
-      "chg_pct": -1.77,
-      "wk_pct": 0.4,
-      "date": "2026-11-23"
+      "last": 83770.9,
+      "chg_pct": 1.62,
+      "wk_pct": 1.5,
+      "date": "2026-11-25"
     },
     "spx": {
       "label": "S&P 500",
       "symbol": "^GSPC",
-      "last": 7237.17,
-      "chg_pct": 4.73,
-      "wk_pct": -2.42,
-      "date": "2026-11-23"
+      "last": 7201.09,
+      "chg_pct": -0.5,
+      "wk_pct": -1.9,
+      "date": "2026-11-24"
     },
     "nasdaq": {
       "label": "Nasdaq",
       "symbol": "^IXIC",
-      "last": 24089.56,
-      "chg_pct": 6.51,
-      "wk_pct": -1.71,
-      "date": "2026-11-23"
+      "last": 23733.54,
+      "chg_pct": -1.48,
+      "wk_pct": -2.45,
+      "date": "2026-11-24"
     },
     "dow": {
       "label": "Dow Jones",
       "symbol": "^DJI",
-      "last": 49595.31,
-      "chg_pct": 3.01,
-      "wk_pct": -3.9,
-      "date": "2026-11-23"
+      "last": 50018.7,
+      "chg_pct": 0.85,
+      "wk_pct": -1.46,
+      "date": "2026-11-24"
     },
     "brent": {
       "label": "Brent crude",
       "symbol": "BZ=F",
-      "last": 85.94,
-      "chg_pct": -3.84,
-      "wk_pct": -7.73,
+      "last": 87.58,
+      "chg_pct": -2.0,
+      "wk_pct": -5.97,
       "date": "2026-11-24"
     },
     "wti": {
       "label": "WTI crude",
       "symbol": "CL=F",
-      "last": 79.39,
-      "chg_pct": -0.97,
-      "wk_pct": -7.7,
+      "last": 80.81,
+      "chg_pct": 0.8,
+      "wk_pct": -6.05,
       "date": "2026-11-24"
     },
     "us10y": {
       "label": "US 10-yr yield",
       "symbol": "^TNX",
-      "last": 4.92,
-      "chg_pct": 0.12,
-      "wk_pct": -3.96,
-      "date": "2026-11-23"
+      "last": 4.9,
+      "chg_pct": -0.28,
+      "wk_pct": -3.9,
+      "date": "2026-11-24"
     },
     "sox": {
       "label": "SOX semis",
       "symbol": "^SOX",
-      "last": 9588.05,
-      "chg_pct": 14.03,
-      "wk_pct": -0.24,
-      "date": "2026-11-23"
+      "last": 8832.5,
+      "chg_pct": -7.88,
+      "wk_pct": -8.4,
+      "date": "2026-11-24"
     }
   }
 }
