@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-11-26T03:42Z",
+  "updated_utc": "2026-11-27T03:43Z",
   "quotes": {
     "nifty": {
       "label": "Nifty 50",
       "symbol": "^NSEI",
-      "last": 25873.2,
-      "chg_pct": 0.21,
-      "wk_pct": 2.56,
-      "date": "2026-11-26"
+      "last": 25839.25,
+      "chg_pct": -0.17,
+      "wk_pct": 1.27,
+      "date": "2026-11-27"
     },
     "sensex": {
       "label": "Sensex",
       "symbol": "^BSESN",
-      "last": 83938.28,
-      "chg_pct": 1.82,
-      "wk_pct": 1.7,
-      "date": "2026-11-25"
+      "last": 84328.59,
+      "chg_pct": 0.46,
+      "wk_pct": 2.8,
+      "date": "2026-11-26"
     },
     "spx": {
       "label": "S&P 500",
@@ -44,18 +44,18 @@
     "brent": {
       "label": "Brent crude",
       "symbol": "BZ=F",
-      "last": 91.1,
-      "chg_pct": -0.33,
-      "wk_pct": -0.92,
-      "date": "2026-11-25"
+      "last": 92.24,
+      "chg_pct": -2.51,
+      "wk_pct": 0.28,
+      "date": "2026-11-26"
     },
     "wti": {
       "label": "WTI crude",
       "symbol": "CL=F",
-      "last": 84.37,
-      "chg_pct": 2.83,
-      "wk_pct": 1.33,
-      "date": "2026-11-25"
+      "last": 85.74,
+      "chg_pct": 2.46,
+      "wk_pct": 3.04,
+      "date": "2026-11-26"
     },
     "us10y": {
       "label": "US 10-yr yield",
